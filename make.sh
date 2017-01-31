@@ -1,4 +1,4 @@
 #!/bin/bash 
-lex ejemplo.lex
+lex analizador.lex
 gcc lex.yy.c -o prog -ll
-./prog < contam.fastq > salida 
+./prog < contam.fastq > out
